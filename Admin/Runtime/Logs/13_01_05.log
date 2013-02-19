@@ -1,0 +1,487 @@
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000381s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000628s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000197s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000241s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000132s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000178s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.005385s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.005442s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000509s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000604s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000827s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002389s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.003493s ]
+[ 2013-01-05T20:02:22+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.003550s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000266s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000373s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000222s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000296s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000221s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000375s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.006361s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006459s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000421s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000674s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000261s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000912s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002488s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.003748s ]
+[ 2013-01-05T20:02:31+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.003846s ]
+[ 2013-01-05T20:03:15+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:03:15+08:00 ] /Admin/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000196s ]
+[ 2013-01-05T20:03:15+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000293s ]
+[ 2013-01-05T20:03:15+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  _ACCESS_LIST RBAC.class.php 第 184 行.
+[ 2013-01-05T20:03:15+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  authId CommonAction.class.php 第 11 行.
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000239s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000439s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000280s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000355s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000266s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000346s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.006100s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006175s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000278s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000391s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000157s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000338s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001293s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001512s ]
+[ 2013-01-05T20:03:20+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001583s ]
+[ 2013-01-05T20:06:25+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:06:25+08:00 ] /Admin/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000243s ]
+[ 2013-01-05T20:06:25+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000354s ]
+[ 2013-01-05T20:06:25+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  _ACCESS_LIST RBAC.class.php 第 184 行.
+[ 2013-01-05T20:06:25+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  authId CommonAction.class.php 第 11 行.
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000525s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000754s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000182s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000225s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000147s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000195s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.004640s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.004720s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000215s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000274s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000310s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001028s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001673s ]
+[ 2013-01-05T20:06:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001727s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000221s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000363s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000242s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000310s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000170s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000236s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.006701s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006788s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000396s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000401s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000274s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000453s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001698s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.003824s ]
+[ 2013-01-05T20:08:18+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.003904s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000269s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000426s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000238s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000292s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000193s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000254s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.004183s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.004249s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000278s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000243s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000190s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000328s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001164s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001566s ]
+[ 2013-01-05T20:18:17+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001638s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000206s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000315s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000123s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000163s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000188s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000245s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.003827s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.003885s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000181s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000249s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000314s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000970s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002581s ]
+[ 2013-01-05T20:26:30+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002633s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000145s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000228s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000149s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000193s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000107s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000161s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.003614s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.003664s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000158s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000224s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000138s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000315s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000948s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001500s ]
+[ 2013-01-05T20:26:32+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001548s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000332s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000456s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000531s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000609s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000216s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000299s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.006045s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006137s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000396s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000433s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000255s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000565s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001853s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002270s ]
+[ 2013-01-05T20:26:33+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002380s ]
+[ 2013-01-05T20:26:36+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:26:36+08:00 ] /Admin/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000161s ]
+[ 2013-01-05T20:26:36+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000245s ]
+[ 2013-01-05T20:26:36+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  _ACCESS_LIST RBAC.class.php 第 184 行.
+[ 2013-01-05T20:26:36+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  authId CommonAction.class.php 第 11 行.
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000201s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000306s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000228s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000323s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000174s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000255s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.005046s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.005124s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000142s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000174s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000114s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000236s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000763s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001139s ]
+[ 2013-01-05T20:26:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001192s ]
+[ 2013-01-05T20:29:30+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:29:30+08:00 ] /Admin/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000176s ]
+[ 2013-01-05T20:29:30+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000309s ]
+[ 2013-01-05T20:29:30+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  _ACCESS_LIST RBAC.class.php 第 184 行.
+[ 2013-01-05T20:29:30+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  authId CommonAction.class.php 第 11 行.
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000333s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000458s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000256s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000331s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000220s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000298s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.007600s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007695s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000304s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000506s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000305s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000592s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001920s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002616s ]
+[ 2013-01-05T20:29:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002701s ]
+[ 2013-01-05T21:08:38+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:08:38+08:00 ] /Admin/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000240s ]
+[ 2013-01-05T21:08:38+08:00 ] /Admin/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000531s ]
+[ 2013-01-05T21:08:38+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  _ACCESS_LIST RBAC.class.php 第 184 行.
+[ 2013-01-05T21:08:38+08:00 ] /Admin/ | NOTIC: [8] Undefined index:  authId CommonAction.class.php 第 11 行.
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000509s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000722s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000270s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000347s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000328s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000413s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.008797s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008900s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000390s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000594s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000319s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000749s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002305s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.003882s ]
+[ 2013-01-05T21:08:43+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.003978s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000652s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001133s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000409s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000498s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000279s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000389s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.008100s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008203s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000361s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000484s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000223s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000756s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002044s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002362s ]
+[ 2013-01-05T21:28:44+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002453s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000313s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000443s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000213s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000317s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000136s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000183s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.004531s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.004596s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000224s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000357s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000145s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000401s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001359s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002009s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002066s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000389s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000578s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000402s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000301s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000382s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.006719s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006790s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000183s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000351s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000093s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000310s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001043s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002275s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002329s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000268s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000603s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000299s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000382s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000207s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000342s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.006780s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006881s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000550s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000689s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000387s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000571s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002539s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001676s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001795s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000261s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000365s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000217s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000291s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000163s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000240s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.005465s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.005569s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000423s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000447s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000150s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000459s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001688s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002602s ]
+[ 2013-01-05T21:28:45+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002715s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000309s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000491s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000321s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000439s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000250s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000371s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.007066s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007158s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000257s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000302s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000138s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000372s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001252s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002015s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002087s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000106s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000161s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000126s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000162s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000095s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000133s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.002690s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.002777s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000184s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000090s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000233s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000801s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000951s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000993s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000299s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000520s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000235s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000311s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000203s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000288s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.006449s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006591s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000328s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000437s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000175s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000577s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001768s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001840s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001902s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000209s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000330s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000194s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000268s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000163s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000261s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.005270s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.005366s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.000361s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000449s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000147s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000515s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001680s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002026s ]
+[ 2013-01-05T21:28:46+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002134s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --START--
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run CheckRoute Behavior [ RunTime:0.000220s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000477s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --START--
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000229s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000315s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --START--
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000258s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000337s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --START--
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run ParseTemplate Behavior [ RunTime:0.005833s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.005928s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --START--
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run ContentReplace Behavior [ RunTime:0.001162s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run TokenBuild Behavior [ RunTime:0.000392s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000178s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000507s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002494s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --START--
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002735s ]
+[ 2013-01-05T21:29:28+08:00 ] /Admin/index.php/Public/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002821s ]
