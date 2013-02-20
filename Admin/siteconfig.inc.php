@@ -2,16 +2,16 @@
 //DWZ thinkphp网站配置文件
 if (!defined('THINK_PATH')) exit();
 return array(
-	'SITENAME'=>'DWZ富客户端框架 - thinkphp3.0',
-	'EMAIL'=>'zhanghuihua@dwzjs.com',
-	'CONTACT'=>'张慧华',
-	'COMPANY'=>'dwz研发组',
+	'SITENAME'=>'豆豆生产管理系统系统1.0',
+	'EMAIL'=>'fanzhanao@gmail.com',
+	'CONTACT'=>'fanzhanao',
+	'COMPANY'=>'豆豆研发组',
 	'PHONE'=>'',
 	'FAX'=>'',
 	'ADDRESS'=>'',
 	'OFFLINEMESSAGE'=>'本站正在维护中，暂不能访问。<br /> 请稍后再访问本站。',
-	'SITEURL'=>'http://www.pm.com',
-	'DEMOURL'=>'http://demo.dwzjs.com',
-	'BBSOURL'=>'http://bbs.dwzjs.com',
+	'SITEURL'=>'http://www.ddpms.com',
+	'DEMOURL'=>'http://demo.ddpms.com',
+	'BBSOURL'=>'http://bbs.ddpms.com',
 );
 ?>

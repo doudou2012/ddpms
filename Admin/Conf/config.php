@@ -45,6 +45,9 @@ $config	= array(
 	'RBAC_USER_TABLE'=>'role_user',
 	'RBAC_ACCESS_TABLE'=>'access',
 	'RBAC_NODE_TABLE'=>'node',
+		
+	'PREFIX_DD'				=>	'GE',	//订单前缀
+	'PREFIX_PD'				=>	'PD', 	//产品前缀
 
 );
 
