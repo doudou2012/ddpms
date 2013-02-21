@@ -2,11 +2,11 @@
 /**
  * 文件名 :SupplierAction.class.php
  * @文件描述 
- * 供应商
+ * 供应商管理
  * @作者  范占鳌   邮箱： fanzhanao@gmail.com
- * @程序包 dpms
+ * @程序包 ddpms
  * @创建时间 下午10:57:33
- * @ Copyright (c) 2007 – 2007 www.dpms.com
+ * @ Copyright (c) 2007 – 2007 www.ddpms.com
  */
 class SupplierAction extends CommonAction{
 

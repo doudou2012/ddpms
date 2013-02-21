@@ -44,7 +44,7 @@ $(function(){
 //		loginUrl:"__APP__/Public/login",	//跳到登录页面
 		statusCode:{ok:1,error:0},
 		pageInfo:{pageNum:"pageNum", numPerPage:"numPerPage", orderField:"_order", orderDirection:"_sort"}, //【可选】
-		debug:false,	// 调试模式 【true|false】
+		debug:true,	// 调试模式 【true|false】
 		callback:function(){
 			initEnv();
 			$("#themeList").theme({themeBase:"__PUBLIC__/dwz/themes"});
