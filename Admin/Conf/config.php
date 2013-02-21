@@ -39,6 +39,13 @@ $config	= array(
 	'REQUIRE_AUTH_ACTION'=>'',		// 默认需要认证操作
     'GUEST_AUTH_ON'=>false,    // 是否开启游客授权访问
     'GUEST_AUTH_ID'=>0,     // 游客的用户ID
+    
+	/* 开启路由功能 */
+	'URL_ROUTER_ON'   => true, //开启路由
+	
+	'URL_ROUTE_RULES'=>array(
+				'/\/Admin\/(index\.php)?\#(\w+)$' => '/Admin/?class=1111'
+	),
 
     'DB_LIKE_FIELDS'=>'title|remark',
 	'RBAC_ROLE_TABLE'=>'role',

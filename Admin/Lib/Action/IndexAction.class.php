@@ -3,6 +3,8 @@ class IndexAction extends CommonAction {
 	
 	// 框架首页
 	public function index() {
+		$class = isset($_GET['class']) ? $_GET['class'] : '';
+		if ($class) {echo $class;exit;}
 		if (isset ( $_SESSION [C ( 'USER_AUTH_KEY' )] )) {
 			//显示菜单项
 			$menu = array ();
