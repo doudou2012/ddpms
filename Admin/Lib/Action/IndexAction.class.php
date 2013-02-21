@@ -18,14 +18,14 @@ class IndexAction extends CommonAction {
 			$accessList = $_SESSION ['_ACCESS_LIST'];
 // 			var_dump($accessList);exit;
 			foreach ( $list as $key => $module ) {
-				print_r($module);
+// 				print_r($module);
 				if (isset ( $accessList [strtoupper ( APP_NAME )] [strtoupper ( $module ['name'] )] ) || $_SESSION ['administrator']) {
 					//设置模块访问权限
 					$module ['access'] = 1;
 					$menu [$key] = $module;
 				}
 			}
-			print_r($menu);exit;
+// 			print_r($menu);exit;
 			if (! empty ( $_GET ['tag'] )) {
 				$this->assign ( 'menuTag', $_GET ['tag'] );
 			}

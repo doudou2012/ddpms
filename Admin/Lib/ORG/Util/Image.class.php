@@ -555,6 +555,7 @@ class Image {
     }
 
     static function output($im, $type='png', $filename='') {
+    	ini_set("zlib.output_compression", "0");
         ob_clean(); //防止出现'图像因其本身有错无法显示'的问题
         header("Content-type: image/" . $type);
         $ImageFun = 'image' . $type;
@@ -564,6 +565,7 @@ class Image {
             $ImageFun($im, $filename);
         }
         imagedestroy($im);
+//         ini_set("zlib.output_compression", "1");
     }
 
 }

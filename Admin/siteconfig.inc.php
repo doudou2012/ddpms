@@ -2,10 +2,10 @@
 //DWZ thinkphp网站配置文件
 if (!defined('THINK_PATH')) exit();
 return array(
-	'SITENAME'=>'豆豆生产管理系统系统1.0',
+	'SITENAME'=>'生产管理系统系统1.0',
 	'EMAIL'=>'fanzhanao@gmail.com',
 	'CONTACT'=>'fanzhanao',
-	'COMPANY'=>'豆豆研发组',
+	'COMPANY'=>'研发组',
 	'PHONE'=>'',
 	'FAX'=>'',
 	'ADDRESS'=>'',
