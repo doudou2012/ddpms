@@ -7,7 +7,7 @@
 define('APP_NAME', 'Admin');
 define('APP_PATH', './');
 define('APP_DEBUG', true); //调试模式开关
-define('WEB_PUBLIC_PATH', '/Public');
+define('WEB_PUBLIC_PATH', './Public');
 
 // 加载框架入口文件
 
