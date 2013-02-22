@@ -74,7 +74,19 @@ $(function(){
 				</ul>
 			</div>
 		</div>
-		
+		<div id="navMenu">
+				<ul>
+					<li class="selected"><a href="sidebar_1.html"><span>我的首页</span></a></li>
+					<li><a href="sidebar_1.html"><span>采购管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>库存管理</span></a></li>
+					<li><a href="sidebar_1.html"><span>产品管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>销售管理</span></a></li>
+					<li><a href="sidebar_1.html"><span>客户管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>财务管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>报表管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>系统设置</span></a></li>
+				</ul>
+	    </div>
 		<div id="leftside">
 			<div id="sidebar_s">
 				<div class="collapse">
