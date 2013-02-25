@@ -84,6 +84,7 @@ $(function(){
 					<li><a href="sidebar_1.html"><span>客户管理</span></a></li>
 					<li><a href="sidebar_2.html"><span>财务管理</span></a></li>
 					<li><a href="sidebar_2.html"><span>报表管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>用户管理</span></a></li>
 					<li><a href="sidebar_2.html"><span>系统设置</span></a></li>
 				</ul>
 	    </div>
