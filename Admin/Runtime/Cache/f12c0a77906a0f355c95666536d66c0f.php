@@ -74,7 +74,48 @@ $(function(){
 				</ul>
 			</div>
 		</div>
-		
+		<div id="navMenu">
+	<ul>
+	<?php if(is_array($menu)): $i = 0; $__LIST__ = $menu;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><neq name="item['name']|strtolower" value="public" >
+			<?php if(($item['access']) == "1"): ?><li><a href="__APP__/<?php echo ($item['name']); ?>/index/?mid=<?php echo ($item['id']); ?>" target="navTab" rel="<?php echo ($item['name']); ?>"><span><?php echo ($item['title']); ?></span></a></li><?php endif; ?>
+		<!-- <li class="selected"><a href=""><span>我的首页</span></a></li>
+		<li><a href="sidebar_1.html"><span>采购管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>库存管理</span></a></li>
+		<li><a href="sidebar_1.html"><span>产品管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>销售管理</span></a></li>
+		<li><a href="sidebar_1.html"><span>客户管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>财务管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>报表管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>用户管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>系统设置</span></a></li> --><?php endforeach; endif; else: echo "" ;endif; ?>
+	</ul>
+</div>	
+<div class="accordion" fillSpace="sideBar">
+	<div class="accordionHeader">
+		<h2><span>Folder</span>应用</h2>
+	</div>
+	<div class="accordionContent">
+		<ul class="tree treeFolder">
+			<?php if(is_array($menu)): $i = 0; $__LIST__ = $menu;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><li>
+			<?php if((strtolower($item['name'])) != "public"): if((strtolower($item['name'])) != "index"): if(($item['access']) == "1"): ?><li><a href="__APP__/<?php echo ($item['name']); ?>/index/" target="navTab" rel="<?php echo ($item['name']); ?>"><?php echo ($item['title']); ?></a></li><?php endif; endif; endif; endforeach; endif; else: echo "" ;endif; ?>
+		</ul>
+	</div>
+</div>
+
+		<!-- <div id="navMenu">
+				<ul>
+					<li class="selected"><a href="sidebar_1.html"><span>我的首页</span></a></li>
+					<li><a href="sidebar_1.html"><span>采购管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>库存管理</span></a></li>
+					<li><a href="sidebar_1.html"><span>产品管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>销售管理</span></a></li>
+					<li><a href="sidebar_1.html"><span>客户管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>财务管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>报表管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>用户管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>系统设置</span></a></li>
+				</ul>
+	    </div> -->
 		<div id="leftside">
 			<div id="sidebar_s">
 				<div class="collapse">
@@ -82,7 +123,7 @@ $(function(){
 				</div>
 			</div>
 			
-			<div id="sidebar">
+			<!-- <div id="sidebar">
 					
 <div class="accordion" fillSpace="sideBar">
 	<div class="accordionHeader">
@@ -96,7 +137,7 @@ $(function(){
 	</div>
 </div>
 
-			</div>
+			</div>  -->
 		</div>
 
 		<div id="container">

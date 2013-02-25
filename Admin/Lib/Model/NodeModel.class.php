@@ -19,5 +19,20 @@ class NodeModel extends CommonModel {
 			return true;
 		}
 	}
+	
+	/**
+	 * 根据父id，获取子节点的分类
+	 * @param unknown_type $pid
+	 * @return boolean
+	 */
+	public function getNodeListByPid($pid = '',$level = 2){
+		if ($pid){
+			$pid = is_array($pid) ? implode(',',$pid) : $pid;
+			$where['id'] = array('in',$pid);
+		}
+		!$level and $level = 2;
+		$where['level'] = array('elt',$level);
+		return $this->where($where)->select();
+	}
 }
 ?>

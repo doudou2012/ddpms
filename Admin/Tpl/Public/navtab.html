@@ -1,0 +1,38 @@
+<div id="navMenu">
+	<ul>
+	<volist id="item" name="menu" >
+		<neq name="item['name']|strtolower" value="public" >
+			<eq name="item['access']" value="1">
+				<li><a href="__APP__/{$item['name']}/index/?mid={$item['id']}" target="navTab" rel="{$item['name']}"><span>{$item['title']}</span></a></li>
+			</eq>
+		<!-- <li class="selected"><a href=""><span>我的首页</span></a></li>
+		<li><a href="sidebar_1.html"><span>采购管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>库存管理</span></a></li>
+		<li><a href="sidebar_1.html"><span>产品管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>销售管理</span></a></li>
+		<li><a href="sidebar_1.html"><span>客户管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>财务管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>报表管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>用户管理</span></a></li>
+		<li><a href="sidebar_2.html"><span>系统设置</span></a></li> -->
+	</volist>
+	</ul>
+</div>	
+<div class="accordion" fillSpace="sideBar">
+	<div class="accordionHeader">
+		<h2><span>Folder</span>应用</h2>
+	</div>
+	<div class="accordionContent">
+		<ul class="tree treeFolder">
+			<volist id="item" name="menu" ><li>
+			<neq name="item['name']|strtolower" value="public" >
+				<neq name="item['name']|strtolower" value="index" >
+				<eq name="item['access']" value="1">
+				<li><a href="__APP__/{$item['name']}/index/" target="navTab" rel="{$item['name']}">{$item['title']}</a></li>
+				</eq>
+				</neq>
+			</neq>
+			</volist>
+		</ul>
+	</div>
+</div>
