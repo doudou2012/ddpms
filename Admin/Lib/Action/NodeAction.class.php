@@ -26,6 +26,7 @@ class NodeAction extends CommonAction {
 
 	public function _before_index() {
 		$model	=	M("Group");
+		$mid = $this->_get('mid');
 		$list	=	$model->where('status=1')->getField('id,title');
 		$this->assign('groupList',$list);
 	}
@@ -35,10 +36,31 @@ class NodeAction extends CommonAction {
 		$model	=	M("Group");
 		$list	=	$model->where('status=1')->select();
 		$this->assign('list',$list);
-		$node	=	M("Node");
+		$node	=	D("Node");
 		$node->getById($_SESSION['currentNodeId']);
+// 		$node->getNodeListByPid();
         $this->assign('pid',$node->id);
 		$this->assign('level',$node->level+1);
+	}
+	/**
+	 * @类 : NodeAction 
+	 * @描述:
+	 * author: fanzhanao@gmail.com
+	 * @param 
+	 * @return int/bool/object/array
+	*/
+	public function node_list(){
+		$node = D("Node");
+		print_r($node);
+		$list = $node->getNodeListByPid();
+		$rst = array();
+		
+		if (count($list) > 0){
+			foreach ($list as &$row){
+				
+			}
+		}
+		exit;
 	}
 
     public function _before_patch() {
