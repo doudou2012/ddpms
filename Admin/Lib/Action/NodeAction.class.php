@@ -51,16 +51,26 @@ class NodeAction extends CommonAction {
 	*/
 	public function node_list(){
 		$node = D("Node");
-		print_r($node);
 		$list = $node->getNodeListByPid();
 		$rst = array();
-		
 		if (count($list) > 0){
 			foreach ($list as &$row){
-				
+				if (intval($row['pid']) == 0){
+					if (isset($row['id']['sub'])){
+						$sub = $rst[$row['id']]['sub'];
+						$rst[$row['id']] = $row;
+						$rst[$row['id']]['sub'] = $sub;
+					}else 
+						$rst[$row['id']] = $row;
+				}else {
+					$rst[$row['pid']]['sub'][] = $row;
+				}
 			}
 		}
-		exit;
+		$this->assign("list",$rst);
+		$this->display();
+// 		$this->assign("secondLevel",$level_2);
+		return;
 	}
 
     public function _before_patch() {
@@ -112,6 +122,20 @@ class NodeAction extends CommonAction {
         $this->assign("sortList",$sortList);
         $this->display();
         return ;
+    }
+    
+    /**
+     * @类 : NodeAction
+     * @描述:
+     * author: fanzhanao@gmail.com
+     * @param
+     * @return int/bool/object/array
+     */
+    public function menu(){
+    	
+    	$this->assign ( 'title', '系统管理' );
+    	$this->display();
+    	return ;
     }
 }
 ?>
