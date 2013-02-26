@@ -32,7 +32,7 @@ class NodeModel extends CommonModel {
 		}
 		!$level and $level = 2;
 		$where['level'] = array('elt',$level);
-		return $this->where($where)->select();
+		return $this->where($where)->field ( 'id,name,title,pid,level,group_id' )->order ( 'sort asc' )->select ();
 	}
 }
 ?>

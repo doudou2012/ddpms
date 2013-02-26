@@ -33,7 +33,7 @@
 			<div class="unit">
 				<label>父节点：</label>
 				<input type="hidden" name="district.id" />
-				<input class="required" name="district.districtName" type="text" readonly/><a class="btnLook" target=“dialog”  href="/treeLookup.html" lookupGroup="district">查找带回</a>
+				<input class="required" name="district.districtName" type="text" readonly/><a class="btnLook" target=“dialog”  href="__APP__/Node/node_list" lookupGroup="district">查找带回</a>
 			</div>
 			<div class="unit">
 				<label>状态：</label>
