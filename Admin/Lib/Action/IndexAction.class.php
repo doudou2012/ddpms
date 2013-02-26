@@ -30,7 +30,7 @@ class IndexAction extends CommonAction {
 			}
 			//dump($menu);
 			$this->assign ( 'menu', $menu );
-			$this->display('Public:menu');
+// 			$this->display('Public:menu');
 		}
 		C ( 'SHOW_RUN_TIME', false ); // 运行时间显示
 		C ( 'SHOW_PAGE_TRACE', false );
