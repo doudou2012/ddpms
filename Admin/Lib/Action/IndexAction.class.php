@@ -13,11 +13,11 @@ class IndexAction extends CommonAction {
 			$id = $node->getField ( "id" );
 			$where ['level'] = 1;
 			$where ['status'] = 1;
-// 			$where ['pid'] = $id;
+			$where ['pid'] = 0;
 			$list = $node->where ( $where )->field ( 'id,name,group_id,title' )->order ( 'sort asc' )->select ();
 			
 			$accessList = $_SESSION ['_ACCESS_LIST'];
-// 			var_dump($accessList);exit;
+// 			var_dump($list);exit;
 			foreach ( $list as $key => $module ) {
 				if (isset ( $accessList [strtoupper ( APP_NAME )] [strtoupper ( $module ['name'] )] ) || $_SESSION ['administrator']) {
 					//设置模块访问权限
@@ -30,7 +30,7 @@ class IndexAction extends CommonAction {
 			}
 			//dump($menu);
 			$this->assign ( 'menu', $menu );
-// 			$this->display('Public:menu');
+			$this->display('Public:menu');
 		}
 		C ( 'SHOW_RUN_TIME', false ); // 运行时间显示
 		C ( 'SHOW_PAGE_TRACE', false );

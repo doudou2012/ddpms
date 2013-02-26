@@ -69,7 +69,6 @@ class NodeAction extends CommonAction {
 		}
 		$this->assign("list",$rst);
 		$this->display();
-// 		$this->assign("secondLevel",$level_2);
 		return;
 	}
 

@@ -83,7 +83,7 @@ class RBAC {
     static public function authenticate($map,$model='')
     {
         if(empty($model)) $model =  C('USER_AUTH_MODEL');
-        //使用给定的Map进行认证
+        //使用给定的Map进行认证  
         return M($model)->where($map)->find();
     }
 
