@@ -1,0 +1,24 @@
+<div class="pageContent">
+	<div class="pageFormContent" layoutH="58">
+		<ul class="tree expand">
+			<volist name="list" id="vo" key="k">
+			<notempty name="vo">
+				<li><a href="javascript:" onclick="$.bringBack({id:'{$vo.id}', districtName:'{$vo.title}'})">{$vo.title}</a>
+				<notempty name="vo['sub']">
+					<ul>
+					<volist name="vo['sub']" id="sub">
+						<li><a href="javascript:" onclick="$.bringBack({id:'{$sub.id}', districtName:'{$sub.title}'})">{$sub.title}</a>
+					</volist>
+					</ul>
+				</notempty>
+			</notempty>
+			</volist>
+		</ul>
+	</div>
+	
+	<div class="formBar">
+		<ul>
+			<li><div class="button"><div class="buttonContent"><button class="close" type="button">关闭</button></div></div></li>
+		</ul>
+	</div>
+</div>
