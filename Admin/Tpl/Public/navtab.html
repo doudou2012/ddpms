@@ -3,7 +3,7 @@
 	<volist id="item" name="menu" >
 		<neq name="item['name']|strtolower" value="public" >
 			<eq name="item['access']" value="1">
-				<li><a href="__APP__/Node/menu/?mid={$item['id']}" target="navTab" rel="{$item['name']}"><span>{$item['title']}</span></a></li>
+				<li><a href="__APP__/{$item['name']}/menu/mid/{$item['id']}" target="navTab" rel="{$item['name']}"><span>{$item['title']}</span></a></li>
 			</eq>
 	</volist>
 	</ul>

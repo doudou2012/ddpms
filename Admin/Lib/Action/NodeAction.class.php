@@ -5,9 +5,10 @@ class NodeAction extends CommonAction {
         if(!empty($_GET['group_id'])) {
             $map['group_id'] =  $_GET['group_id'];
             $this->assign('nodeName','分组');
-        }elseif(empty($_POST['search']) && !isset($map['pid']) ) {
+        }
+        /* elseif(empty($_POST['search']) && !isset($map['pid']) ) {
 			$map['pid']	=	0;
-		}
+		} */
 		if($_GET['pid']!=''){
 			$map['pid']=$_GET['pid'];
 		}
@@ -30,6 +31,21 @@ class NodeAction extends CommonAction {
 		$list	=	$model->where('status=1')->getField('id,title');
 		$this->assign('groupList',$list);
 	}
+	
+	/**
+	 * @类 : NodeAction 
+	 * @描述: 添加
+	 * author: fanzhanao@gmail.com
+	 * @param 
+	 * @return int/bool/object/array
+	*/
+	 public function _before_insert() {
+		if (isset($_POST['pnode_id'])) {
+			$_POST['pid'] = intval($_POST['pnode_id']);
+			unset($_POST['pnode_id']);
+			unset($_POST['pnode_title']);
+		}
+	} 
 
 	// 获取配置类型
 	public function _before_add() {
@@ -131,11 +147,10 @@ class NodeAction extends CommonAction {
      * @param
      * @return int/bool/object/array
      */
-    public function menu(){
-    	
+   /*  public function menu(){
     	$this->assign ( 'title', '系统管理' );
     	$this->display();
     	return ;
-    }
+    } */
 }
 ?>

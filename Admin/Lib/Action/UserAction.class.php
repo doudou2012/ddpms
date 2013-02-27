@@ -3,7 +3,7 @@
 class UserAction extends CommonAction {
 	function _filter(&$map){
 		  $map['id'] = array('egt',2);
-		$map['account'] = array('like',"%".$_POST['account']."%");
+		  $map['account'] = array('like',"%".$_POST['account']."%");
 	}
 	// 检查帐号
 	public function checkAccount() {

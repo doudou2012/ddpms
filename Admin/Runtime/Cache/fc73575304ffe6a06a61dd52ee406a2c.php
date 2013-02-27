@@ -40,7 +40,7 @@
 			<th width="100" orderField="title" <?php if($_REQUEST["_order"] == 'title'): ?>class="<?php echo ($_REQUEST["_sort"]); ?>"<?php endif; ?>>名称</th>
 			<th>显示名</th>
 			<th width="100">分组</th>
-			<th width="80" orderField="sequence" <?php if($_REQUEST["_order"] == 'sequence'): ?>class="<?php echo ($_REQUEST["_sort"]); ?>"<?php endif; ?>>序号</th>
+			<th width="80" orderField="sequence" <?php if($_REQUEST["_order"] == 'sequence'): ?>class="<?php echo ($_REQUEST["_sort"]); ?>"<?php endif; ?>>排序</th>
 			<th width="100" orderField="status" <?php if($_REQUEST["_order"] == 'status'): ?>class="<?php echo ($_REQUEST["_sort"]); ?>"<?php endif; ?>>状态</th>
 			<th width="100">操作</th>
 		</tr>
@@ -51,9 +51,9 @@
 				<td><a href="__URL__/index/pid/<?php echo ($vo['id']); ?>/" target="navTab" rel="__MODULE__"><?php echo ($vo['name']); ?></a></td>
 				<td><?php echo ($vo['title']); ?></td>
 				<td><?php echo (getnodegroupname($vo['group_id'])); ?></td>
-				<td><?php echo ($vo['sequence']); ?></td>
+				<td><?php echo ($vo['sort']); ?></td>
 				<td><?php echo (getstatus($vo['status'])); ?></td>
-				<td><?php echo (showstatus($vo['status'],$vo['id'],'navTabAjaxMenu')); ?> <a href="__URL__/edit/id/<?php echo ($vo['id']); ?>" target="dialog">编辑</a></td>
+				<td><?php echo (showstatus($vo['status'],$vo['id'],'navTabAjaxMenu')); ?> <a href="__URL__/edit/id/<?php echo ($vo['id']); ?>" target="navTab">编辑</a></td>
 			</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 		</tbody>
 	</table>

@@ -77,7 +77,7 @@ $(function(){
 		<div id="navMenu">
 	<ul>
 	<?php if(is_array($menu)): $i = 0; $__LIST__ = $menu;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><neq name="item['name']|strtolower" value="public" >
-			<?php if(($item['access']) == "1"): ?><li><a href="__APP__/Node/menu/?mid=<?php echo ($item['id']); ?>" target="navTab" rel="<?php echo ($item['name']); ?>"><span><?php echo ($item['title']); ?></span></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+			<?php if(($item['access']) == "1"): ?><li><a href="__APP__/<?php echo ($item['name']); ?>/menu/mid/<?php echo ($item['id']); ?>" target="navTab" rel="<?php echo ($item['name']); ?>"><span><?php echo ($item['title']); ?></span></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 	</ul>
 </div>	
  

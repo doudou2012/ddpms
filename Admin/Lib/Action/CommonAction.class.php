@@ -124,6 +124,7 @@ class CommonAction extends Action {
 		} else {
 			$sort = $asc ? 'asc' : 'desc';
 		}
+		
 		//取得满足条件的记录数
 		$count = $model->where ( $map )->count ( 'id' );
 		if ($count > 0) {
@@ -384,14 +385,14 @@ class CommonAction extends Action {
 	}
 
 
-function saveSort() {
+	function saveSort() {
 		$seqNoList = $_POST ['seqNoList'];
 		if (! empty ( $seqNoList )) {
-			//更新数据对象
-		$name=$this->getActionName();
-		$model = D ($name);
+			// 更新数据对象
+			$name = $this->getActionName ();
+			$model = D ( $name );
 			$col = explode ( ',', $seqNoList );
-			//启动事务
+			// 启动事务
 			$model->startTrans ();
 			foreach ( $col as $val ) {
 				$val = explode ( ':', $val );
@@ -402,15 +403,46 @@ function saveSort() {
 					break;
 				}
 			}
-			//提交事务
+			// 提交事务
 			$model->commit ();
-			if ($result!==false) {
-				//采用普通方式跳转刷新页面
+			if ($result !== false) {
+				// 采用普通方式跳转刷新页面
 				$this->success ( '更新成功' );
 			} else {
 				$this->error ( $model->getError () );
 			}
 		}
+	}
+	
+	/**
+	 * @类 : CommonAction 
+	 * @描述: 左侧通用导航
+	 * author: fanzhanao@gmail.com
+	 * @param 
+	 * @return int/bool/object/array
+	*/
+	function menu(){
+		$mid = intval($_REQUEST['mid']);
+		$level = $mid == 0 ? 1 : 2;
+		$node = D ('Node');
+		$list = $node->getNodeListByPid($mid,$level);
+		if ($mid){//获取一级分类信息
+			$node_info =	$node->where('id='.$mid)->field('name,title')->find();
+			$this->assign("title",$node_info['title']);//设置标题
+		}
+		$menu = array();
+		
+		$accessList = $_SESSION ['_ACCESS_LIST'];
+		foreach ( $list as $key => $module ) {
+			if (isset ( $accessList [strtoupper ( APP_NAME )] [strtoupper ( $module ['name'] )] ) || $_SESSION ['administrator']) {
+				//设置模块访问权限
+				$module ['access'] = 1;
+				$menu [$key] = $module;
+			}
+		}
+		$this->assign("menu",$menu);
+		$this->display("Public:menu");
+		return;
 	}
 }
 ?>

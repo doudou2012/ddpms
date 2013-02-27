@@ -3,7 +3,7 @@
 	<form method="post" action="__URL__/insert/navTabId/__MODULE__" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxMenu)">
 		<input type="hidden" name="user_id" value="<?php echo $_SESSION[C('USER_AUTH_KEY')] ?>"/> 
 		<input type="hidden" name="level" value="<?php echo ($level); ?>">
-		<input type="hidden" name="pid" value="<?php echo ($pid); ?>">
+		<input type="hidden" name="pnode.id" value="">
 		<div class="pageFormContent" layoutH="58">
 			<div class="unit">
 				<label>节点名：</label>
@@ -23,6 +23,10 @@
 				</SELECT>
 			</div>
 			<div class="unit">
+				<label>排序：</label>
+				<input class="required number" name="sort" type="text" size="4" />
+			</div>
+			<div class="unit">
 				<label>类型：</label>
 				<SELECT name="pid">
 					<option value="1">一级模块</option>
@@ -32,8 +36,8 @@
 			</div>
 			<div class="unit">
 				<label>父节点：</label>
-				<input type="hidden" name="district.id" />
-				<input class="required" name="district.districtName" type="text" readonly/><a class="btnLook" target=“dialog”  href="__APP__/Node/node_list" lookupGroup="district">查找带回</a>
+				<input type="hidden" name="pnode.id" />
+				<input class="required" name="pnode.title" type="text" readonly/><a class="btnLook" target=“dialog”  href="__APP__/Node/node_list" lookupGroup="pnode">查找带回</a>
 			</div>
 			<div class="unit">
 				<label>状态：</label>

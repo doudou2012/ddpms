@@ -1,5 +1,4 @@
 <div class="pageContent">
-
 	<form method="post" action="__URL__/update/navTabId/__MODULE__" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxMenu)">
 		<input type="hidden" name="user_id" value="<?php echo $_SESSION[C('USER_AUTH_KEY')] ?>">
 		<input type="hidden" name="id" value="{$vo.id}" >
@@ -15,6 +14,7 @@
 				<label>显示名：</label>
 				<input type="text" class="required"  name="title" value="{$vo.title}">
 			</div>
+			
 			<div class="unit">
 				<label>分 组：</label>
 				<select name="group_id">
@@ -24,7 +24,10 @@
 						</volist>
 				</select>
 			</div>
-			
+			<div class="unit">
+				<label>排序：</label>
+				<input class="required number" name="sort" type="text" value="{$vo['sort']}" size="4" />
+			</div>
 			<div class="unit">
 				<label>状态：</label>
 				<select name="status">
@@ -33,6 +36,19 @@
 				</select>
 			</div>
 			
+			<div class="unit">
+				<label>类型：</label>
+				<SELECT name="level">
+					<option value="1" <eq name="level" value="$vo['level']">selected</eq> >一级模块</option>
+					<option value="2" <eq name="level" value="$vo['level']">selected</eq> >二级模块</option>
+					<option value="3" <eq name="level" value="$vo['level']">selected</eq> >操作</option>
+				</SELECT>
+			</div>
+			<div class="unit">
+				<label>父节点：</label>
+				<input type="hidden" name="pnode.id" value="{$vo.pid}"/>
+				<input class="required" name="pnode.title" type="text" readonly/><a class="btnLook" target=“dialog”  href="__APP__/Node/node_list" lookupGroup="pnode">查找带回</a>
+			</div>
 			<div class="unit">
 				<label>描 述：</label>
 				<textarea name="remark"  rows="3" cols="57">{$vo.remark}</textarea>

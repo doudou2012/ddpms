@@ -1,21 +1,23 @@
 <div class="pageContent">
 	<div class="pageFormContent" layoutH="58">
 		<ul class="tree expand">
+		<li><a href="javascript:" onclick="$.bringBack({name:'顶级节点',title:'顶级节点',id:'0'})">顶级节点</a></li>
+		<ul class="tree expand">
 			<volist name="list" id="vo" key="k">
 			<notempty name="vo">
-				<li><a href="javascript:" onclick="$.bringBack({id:'{$vo.id}', districtName:'{$vo.title}'})">{$vo.title}</a>
+				<li><a href="javascript:" onclick="$.bringBack({name:'{$vo.name}',title:'{$vo.title}',id:'{$vo.id}'})">{$vo.title}</a>
 				<notempty name="vo['sub']">
 					<ul>
 					<volist name="vo['sub']" id="sub">
-						<li><a href="javascript:" onclick="$.bringBack({id:'{$sub.id}', districtName:'{$sub.title}'})">{$sub.title}</a>
+						<li><a href="javascript:" onclick="$.bringBack({name:'{$sub.name}',title:'{$sub.title}',id:'{$sub.id}' })">{$sub.title}</a>
 					</volist>
 					</ul>
 				</notempty>
 			</notempty>
 			</volist>
 		</ul>
+		</ul>
 	</div>
-	
 	<div class="formBar">
 		<ul>
 			<li><div class="button"><div class="buttonContent"><button class="close" type="button">关闭</button></div></div></li>
