@@ -325,7 +325,7 @@ abstract class Action {
             $info           =   array();
             $info['data']   =   $data;
             $info['info']   =   array_shift($args);
-            $info['status'] =   array_shift($args);
+            $info['status'] = 	$info['statusCode'] 	=   array_shift($args);
             $data           =   $info;
             $type           =   $args?array_shift($args):'';
         }
@@ -383,7 +383,7 @@ abstract class Action {
         if(true === $ajax || IS_AJAX) {// AJAX提交
             $data           =   is_array($ajax)?$ajax:array();
             $data['info']   =   $message;
-            $data['status'] =   $status;
+            $data['status']	=	$data['statusCode'] =   $status;
             $data['url']    =   $jumpUrl;
             $this->ajaxReturn($data);
         }
